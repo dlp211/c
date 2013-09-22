@@ -1,7 +1,6 @@
 /*
  * file: tokenizer.c
  * author: David L Patrzeba (c) holder
- * author: Jesse Ziegler (c) holder
  * license: MIT (http://opensource.org/licenses/MIT) (c) 2013
  */
 
