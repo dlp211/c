@@ -163,9 +163,8 @@ char *TKGetNextToken ( TokenizerT *const tk ) {
    * might need to implement my own will eliminate \0 check on every iteration.
    */
   while ( strchr( tk->sepr, *tk->tail ) ) {
-    if ( !*tk->tail ) {
+    if ( !*tk->tail )
       return 0;
-    }
     tk->tail++;
   }
 
